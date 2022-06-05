@@ -24,26 +24,20 @@
 		<div class="w3-container" style="text-align:center">
 			<h1>CONTACT US</h1>
 			<p>Some simple text here</p>
-			
-			<form style="margin-left: 6%;" class="email" action="https://www.enformed.io/the.refraction@gmail.com" method="post">
-				<p>Name:</p>
-				<input type="text" name="first_name" />
-				<div id="margin" style="height: 0.5%;"></div>
-				<p>E-mail:</p>
-				<div id="margin" style="height: 0.5%;"></div>
-				<input type="text" name="email" />
-				<div id="margin" style="height: 0.5%;"></div>
-				<p>Subject:</p>
-				<div id="margin" style="height: 0.5%;"></div>
-				<input type="text" name="subject" />
-				<div id="margin" style="height: 0.5%;"></div>
-				<p>Message:</p>
-				<div id="margin" style="height: 0.5%;"></div>
-				<textarea name="message"></textarea>
-				<div id="margin" style="height: 0.5%;"></div>
-				<button type="submit" class="btn btn-default">Submit Form</button>
-			</form>
 		</div>
+		
+		<form name="contact" method="post">
+			<label>Name</label>
+			<input type="text" name="name" />
+			<label>Subject</label>
+			<input type="text" name="subject" />
+			<label>Phone Number</label>
+			<input type="text" name="phone" />
+			<label>Message</label>
+			<textarea name="message"></textarea>
+
+			<input type="submit" name="send" value="Send Message" />
+		</form>
 		
 		<script src="drawfooter.js"></script>
 		<script src="drawdownloadmodal.js"></script>
