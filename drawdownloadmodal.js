@@ -8,8 +8,8 @@ document.write(`\
 			</div>\
 			<div class="modal-body">\
 				<p><span class="fa fa-windows"></span>&nbsp&nbspWindows <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
-				<p><span class="fa fa-linux"></span>&nbsp&nbspLinux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button">Unavailable</button></p>\
-				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button">Unavailable</button></p>\
+				<p><span class="fa fa-linux"></span>&nbsp&nbspLinux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
+				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
 			</div>\
 			<!--<div class="modal-footer">\
 				<h3>Unused SECTION</h3>\
