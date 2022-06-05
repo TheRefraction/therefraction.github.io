@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Default-op";
+	src: url("fonts/8bitoperator_jve.woff2") format('woff2'),
+	url("fonts/8bitoperator_jve.woff") format('woff'),
+	url("fonts/8bitoperator_jve.ttf") format('truetype');
+}
+body { 
+	font-family: "Default-op";
+	font-size:30px;
+	color:white;
+}
+h1, h2, h3 { 
+	font-family: "Default-op";
+	color:white;
+}
