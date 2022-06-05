@@ -12,7 +12,7 @@ document.write(`\
 				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button class="w3-button w3-round w3-right w3-disabled">Unavailable</button></p>\
 			</div>\
 			<!--<div class="modal-footer">\
-				<h3>Unused SECTION</h3>\
+				<h3>Unused SECTION blah blah</h3>\
 			</div>-->\
 		</div>\
 	</div>\
