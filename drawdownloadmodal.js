@@ -7,14 +7,15 @@ document.write(`\
 				<h2>Download DESTORY Demo</h2>\
 			</div>\
 			<div class="modal-body">\
-				<p><span class="fa fa-windows"></span>&nbsp&nbspWindows <button id="winBtn" class="w3-button w3-round w3-right" type="button" disabled="true">Download</button></p>\
-				<p><span class="fa fa-linux"></span>&nbsp&nbspLinux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
-				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
+				<p><span class="fa fa-windows"></span>&nbsp; &nbsp;Windows <button id="winBtn" class="w3-button w3-round w3-right" type="button" disabled="true">Coming soon</button></p>\
+				<p><span class="fa fa-linux"></span>&nbsp; &nbsp;Linux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
+				<p><span class="fa fa-apple"></span>&nbsp; &nbsp;MacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
 			</div>\
-			<!--<div class="modal-footer">\
-				<h3>Unused SECTION</h3>\
-			</div>-->\
+			<div class="modal-footer">\
+				<h2>Go see <a href="javascript:void(0)" onclick="redirectreqsection();">DESTORY Minimum System Requirements</a></h2>\
+			</div>\
 		</div>\
 	</div>\
+	<script src="redirectreqsection.js"></script>\
 \
 `);
