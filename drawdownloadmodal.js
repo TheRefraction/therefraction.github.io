@@ -7,12 +7,12 @@ document.write(`\
 				<h2>Download DESTORY Demo</h2>\
 			</div>\
 			<div class="modal-body">\
-				<p><span class="fa fa-windows"></span>&nbsp&nbspWindows <button class="w3-button w3-round w3-right" href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe" download="DESDEMO_Windows.exe">Download</button></p>\
-				<p><span class="fa fa-linux"></span>&nbsp&nbspLinux <button class="w3-button w3-round w3-right w3-disabled">Unavailable</button></p>\
-				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button class="w3-button w3-round w3-right w3-disabled">Unavailable</button></p>\
+				<p><span class="fa fa-windows"></span>&nbsp&nbspWindows <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
+				<p><span class="fa fa-linux"></span>&nbsp&nbspLinux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button">Unavailable</button></p>\
+				<p><span class="fa fa-apple"></span>&nbsp&nbspMacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button">Unavailable</button></p>\
 			</div>\
 			<!--<div class="modal-footer">\
-				<h3>Unused SECTION blah blah</h3>\
+				<h3>Unused SECTION</h3>\
 			</div>-->\
 		</div>\
 	</div>\
