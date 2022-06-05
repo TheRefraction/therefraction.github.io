@@ -16,11 +16,17 @@ window.onclick=function(event) {
 	}
 }
 winbtn.onclick=function() {
-    location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+	if(winbtn.disabled==false) {
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+	}
 }
 linbtn.onclick=function() {
-    location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+    if(linbtn.disabled==false) {
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+	}
 }
 macbtn.onclick=function() {
-    location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+    if(macbtn.disabled==false) {
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+	}
 }
