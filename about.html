@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="font.css">
@@ -11,6 +11,13 @@
 		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	
+	<style>
+		body {
+			overflow-x: hidden; 
+			overflow-y: scroll; 
+		}
+	</style>
 
 	<body style="background-color:black;">
 
@@ -19,7 +26,7 @@
 			<a class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%" id="downloadBtn">Demo</a>
 			<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">About</a>
 			<a href="contact.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Contact</a>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="menuFunction()">&#9776;&nbsp;&nbsp;Menu</a>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="menuFunction()"><i class="fa fa-bars" style="color:white"></i>&nbsp;&nbsp;Menu</a>
 		</div>
 
 		<div id="demo" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium">
