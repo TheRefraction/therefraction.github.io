@@ -8,13 +8,6 @@ body {
 	font-family: "Default-op";
 	font-size:30px;
 	color:white;
-	-ms-content-zooming:none;  
-    touch-action: none;
-    content-zooming: none;
-    overflow-y: hidden;
-    overflow-x: hidden; 
-    overflow-y: none; 
-    overflow-x: none; 
 }
 h1, h2, h3 { 
 	font-family: "Default-op";
