@@ -21,16 +21,16 @@ window.onclick=function(event) {
 }
 winbtn.onclick=function() {
 	if(winbtn.disabled==false) {
-		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/main/downloads/DESTORY-Default-0.7.1.17008.exe";
 	}
 }
 linbtn.onclick=function() {
     if(linbtn.disabled==false) {
-		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+		location.href="";
 	}
 }
 macbtn.onclick=function() {
     if(macbtn.disabled==false) {
-		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/c6b728394ba871b8905328f660c02ec987d67d1f/downloads/testfile.exe";
+		location.href="";
 	}
 }
