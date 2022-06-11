@@ -21,7 +21,7 @@ window.onclick=function(event) {
 }
 winbtn.onclick=function() {
 	if(winbtn.disabled==false) {
-		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/main/downloads/DESTORY-Default-0.7.1.17008.exe";
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/main/downloads/DESTORY-Demo-Windows.exe";
 	}
 }
 linbtn.onclick=function() {
