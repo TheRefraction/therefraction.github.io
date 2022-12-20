@@ -7,7 +7,7 @@ document.write(`\
 				<h2>Download DESTORY Demo</h2>\
 			</div>\
 			<div class="modal-body">\
-				<p><span class="fa fa-windows"></span>&nbsp; &nbsp;Windows X64 - 0.7.2 Build 17580 - 50MB <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
+				<p><span class="fa fa-windows"></span>&nbsp; &nbsp;Windows X64 - 0.7.21.105 Build 17964 - 51MB <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
 				<p><span class="fa fa-linux"></span>&nbsp; &nbsp;Linux <button id="linBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Coming soon</button></p>\
 				<p><span class="fa fa-apple"></span>&nbsp; &nbsp;MacOSX <button id="macBtn" class="w3-button w3-round w3-right w3-disabled" type="button" disabled="true">Unavailable</button></p>\
 			</div>\
