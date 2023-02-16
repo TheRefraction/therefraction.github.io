@@ -15,7 +15,6 @@
 	<style>
 		body {
 			overflow-x: hidden; 
-			overflow-y: scroll; 
 		}
 	</style>
 
@@ -24,7 +23,7 @@
 			<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Home</a>
 			<a class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%" id="downloadBtn">Demo</a>
 			<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">About</a>
-			<a href="contact.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Contact</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Troubleshooting & Contact</a>
 			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="menuFunction()"><i class="fa fa-bars" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'"></i>&nbsp;&nbsp;Menu</a>
 		</div>
 
@@ -32,7 +31,7 @@
 			<a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
 			<a class="w3-bar-item w3-button w3-mobile" id="downloadBtn2">Demo</a>
 			<a href="about.html" class="w3-bar-item w3-button w3-mobile">About</a>
-			<a href="contact.html" class="w3-bar-item w3-button w3-mobile">Contact</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile">Troubleshooting & Contact</a>
 		</div>
 		
 		<script>
@@ -64,7 +63,7 @@
 		<div style="text-align:center;position:relative;bottom:144px">
 			<h1>~ DEMO AVAILABLE ~</h1>
 			<h2>-+- <i>Last updated in December 2022</i> -+-</h2>
-			<h3>See the <a href="changelog.html">Changelog</a></h3>
+			<h3>View the <a id="changelogBtn" style="cursor: pointer;"><u>Changelog</u></a></h3>
 			<p>Go check it out!</p>
 			<img src="img/spr_dummy_animated.gif" onclick="this.src='img/spr_dummy_hurt.png';playAudio('audio/snd_escape.mp3')" onmouseout="this.src='img/spr_dummy_animated.gif';" alt="Ghost robot smiling" style="image-rendering: pixelated;user-select:none;user-drag: none;-webkit-user-drag: none;-moz-user-select: none;-webkit-user-select:none;-ms-user-select:none;" height="144" width="96">
 			<p>Seriously! You can even meet this wonderful fellow!</p>
@@ -74,6 +73,8 @@
 		
 		<script src="drawfooter.js"></script>
 		<script src="drawdownloadmodal.js"></script>
+		<script src="drawchangelogmodal.js"></script>
 		<script src="downloadmodal.js"></script>
+		<script src="changelogmodal.js"></script>
 	</body>
 </html>
