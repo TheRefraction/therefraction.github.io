@@ -45,10 +45,15 @@
 	<body style="background-color:black;">
 		<header>
 			<h1 style="font-size:96px;text-align:center">~ 404 ~</h1>
-			<h2 style="font-size:48px;text-align:center">Did you get lost?</h2>
+			<h2 style="font-size:48px;text-align:center" id="randomText">The pain itself is the reason why</h2>
 		</header>
 		<div class="w3-padding-64" style="text-align:center;height:640px;">
 			<img id="poppy" src="https://therefraction.github.io/img/poppy.gif" height="256" width="256" style="image-rendering:pixelated"/>
 		</div>
 	</body>
+	
+	<script>
+		var texts = ["Did you get lost?", "Hee hee! You found me!", "01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101", "But there was nothing there...", "Congrats! You found nothing...", "You came to see me? Awww! So sweet!"];
+		document.getElementById('randomText').innerHTML = texts[Math.floor(Math.random()*texts.length)];
+	</script>
 </html>

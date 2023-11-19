@@ -26,7 +26,7 @@ winbtn.onclick=function() {
 }
 linbtn.onclick=function() {
     if(linbtn.disabled==false) {
-		location.href="";
+		location.href="https://github.com/TheRefraction/therefraction.github.io/raw/main/downloads/DESTORY-Demo-Linux.AppImage";
 	}
 }
 macbtn.onclick=function() {
