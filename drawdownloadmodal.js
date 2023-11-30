@@ -7,8 +7,8 @@ document.write(`\
 				<h2>Download DESTORY Demo</h2>\
 			</div>\
 			<div class="modal-body">\
-				<p><span class="fa fa-windows"></span>&nbsp; &nbsp;Windows X64 - 0.7.22.255 Build 18334 - 57MB <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
-				<p><span class="fa fa-linux"></span>&nbsp; &nbsp;Linux - 0.7.22 - 46MB <button id="linBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
+				<p><span class="fa fa-windows"></span>&nbsp; &nbsp;Windows X64 - 0.7.22.302 Build 18754 - 57MB <button id="winBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
+				<p><span class="fa fa-linux"></span>&nbsp; &nbsp;Linux - 0.7.22 Review 2 - 46MB <button id="linBtn" class="w3-button w3-round w3-right" type="button">Download</button></p>\
 			</div>\
 			<div class="modal-footer">\
 				<h2><a href="javascript:void(0)" onclick="redirectreqsection();">DESTORY Minimum System Requirements</a></h2>\
