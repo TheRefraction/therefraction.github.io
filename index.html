@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="font.css">
+
+	<head>
+		<title>DESTORY</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<style>
+		body {
+			overflow-x: hidden; 
+		}
+	</style>
+
+	<body style="background-color:black;">
+		<div class="w3-bar w3-dark-grey">
+			<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Home</a>
+			<a class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%" id="downloadBtn">Demo</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">About</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Troubleshooting & Contact</a>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="menuFunction()"><i class="fa fa-bars" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'"></i>&nbsp;&nbsp;Menu</a>
+		</div>
+
+		<div id="demo" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium">
+			<a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+			<a class="w3-bar-item w3-button w3-mobile" id="downloadBtn2">Demo</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-mobile">About</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile">Troubleshooting & Contact</a>
+		</div>
+		
+		<script>
+			function menuFunction() {
+			  var x=document.getElementById("demo");
+			  if (x.className.indexOf("w3-show")==-1) {
+				x.className+=" w3-show";
+				//document.getElementById("menuIcn").style.color="black";
+			  } else { 
+				x.className=x.className.replace(" w3-show", "");
+				//document.getElementById("menuIcn").style.color="white";
+			  }
+			}
+			
+			function playAudio(url) {
+				new Audio(url).play();
+			}
+		</script>
+		
+		<header>
+			<p style="text-align:center">
+				<img src="img/DESDEMO.png" alt="DESTORY Logo" style="image-rendering:pixelated;user-select:none;user-drag:none;-webkit-user-drag:none;-moz-user-select: none;-webkit-user-select:none;-ms-user-select:none;">
+			</p>
+			<p style="text-align:center">
+				<img src="img/Eon.gif" alt="The [EON]" style="image-rendering:pixelated;user-select: none;user-drag:none;-webkit-user-drag:none;-moz-user-select:none;-webkit-user-select: none;-ms-user-select:none;position:relative;bottom:64px" height="300" width="300">
+			</p>
+		</header>
+		
+		<div style="text-align:center;position:relative;bottom:144px">
+			<h1>~ NEW DEMO AVAILABLE ~</h1>
+			<h2>-+- <i>Last updated in June 2025</i> -+-</h2>
+			<!--<h3>View the <a id="changelogBtn" style="cursor: pointer;"><u>Changelog</u></a></h3>-->
+			<p>Go check it out!</p>
+			<img src="img/spr_dummy_animated.gif" onclick="this.src='img/spr_dummy_hurt.png';playAudio('audio/snd_escape.mp3')" onmouseout="this.src='img/spr_dummy_animated.gif';" alt="Ghost robot smiling" style="image-rendering: pixelated;user-select:none;user-drag: none;-webkit-user-drag: none;-moz-user-select: none;-webkit-user-select:none;-ms-user-select:none;" height="144" width="96">
+			<p>Seriously! You can even meet this wonderful fellow!</p>
+			<p>Who would pass on such an opportunity??</p>
+			<p>Not me obviously.</p>
+		</div>
+		
+		<script src="drawfooter.js"></script>
+		<script src="drawdownloadmodal.js"></script>
+		<script src="drawchangelogmodal.js"></script>
+		<script src="downloadmodal.js"></script>
+		<script src="changelogmodal.js"></script>
+	</body>
+</html>

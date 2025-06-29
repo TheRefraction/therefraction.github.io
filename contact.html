@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="font.css">
+
+	<head>
+		<title>DESTORY</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<style>
+		body {
+			overflow-x: hidden; 
+		}
+	</style>
+
+	<body style="background-color:black;">
+		<div class="w3-bar w3-dark-grey">
+			<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Home</a>
+			<a class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%" id="downloadBtn">Demo</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">About</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile w3-hide-small" style="width:25%">Troubleshooting & Contact</a>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="menuFunction()"><i class="fa fa-bars" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'"></i>&nbsp;&nbsp;Menu</a>
+		</div>
+
+		<div id="demo" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium">
+			<a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+			<a class="w3-bar-item w3-button w3-mobile" id="downloadBtn2">Demo</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-mobile">About</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-mobile">Troubleshooting & Contact</a>
+		</div>
+		
+		<script>
+			function menuFunction() {
+			  var x=document.getElementById("demo");
+			  if (x.className.indexOf("w3-show")==-1) {
+				x.className+=" w3-show";
+			  } else { 
+				x.className=x.className.replace(" w3-show", "");
+			  }
+			}
+		</script>
+
+		<div class="w3-container" style="text-align:center; font-size:24px">
+			<h1>TROUBLESHOOTING</h1>
+			<p></p>
+			<br>
+		</div>
+		<div class="w3-cell-row" style="width:75%">
+			<div class="w3-container w3-cell" style="width:25%"></div>
+			<div class="w3-container w3-cell" style="text-align:left; font-size:20px">
+				<h2># The game failed to launch and could not initialize D3D Surfaces.</h2>
+				<li>Either there aren't enough graphic resources, or your video card is not supported.</li>
+				<p>Try:</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Closing everything else.</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Shrinking resolution.</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Make sure all video card drivers are up to date and the latest version of DirectX is installed.</p>
+				<br>
+				<h2># A running cat appeared on screen.</h2>
+				<li>Either you tried to load an invalid map or the save file is corrupt.</li>
+				<p>Try:</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Restarting the game.</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Starting a new game.</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Deleting your save file.</p>
+				<br>
+				<h2># Cannot open AppImage file on Linux.</h2>
+				<p>Try the following:</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Install the package libfuse2 or enter "sudo apt install libfuse2" in the terminal (to do once).</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Download the DESTORY AppImage file.</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Authorize its execution (right-click on the file -> Properties -> Permissions -> Allow executing file as program).</p>
+				<p>&nbsp&nbsp&nbsp&nbsp&nbsp- Double-click on the file to open DESTORY.</p>
+			</div>
+		</div>
+		<br>
+		<div class="w3-container" style="text-align:center; font-size:24px">
+			<h1>CONTACT</h1>
+			<p>If the troubleshooting section didn't help you, email technical support.</p>
+			<p>To do it properly, please write down:</p>
+			<br>
+		</div>
+		
+		<div class="w3-cell-row" style="width:75%">
+			<div class="w3-container w3-cell" style="width:25%"></div>
+			<div class="w3-container w3-cell" style="text-align:left; font-size:20px">
+				<li>The operating system you're running on</li>
+				<li>Your computer's hardware configuration (better, but not necessary)</li>
+				<li>The game's version</li>
+				<li>A complete and detailed description of the bug (how it occurred? ; what did it do? ; ...)</li>
+				<li>And screenshots (if possible)</li>
+				<br>
+			</div>
+		</div>
+			
+		<div class="w3-container" style="text-align:center; font-size:24px">
+			<p>Finally, send an e-mail to:</p>
+			<a href="mailto:refraction.destory@gmail.com"><h2>refraction.destory<br>at<br>gmail.com</h2></a>
+			<p>As soon as you report a problem, we'll fix it as quickly as possible.<br>Fixes and bugs patchs will be mentioned in changelogs.<br>Thanks for your cooperation :-)</p>
+		</div>
+		
+		<script src="drawfooter.js"></script>
+		<script src="drawdownloadmodal.js"></script>
+		<script src="downloadmodal.js"></script>
+	</body>
+</html>

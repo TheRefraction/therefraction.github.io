@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://therefraction.github.io/font.css">
+	
+	<head>
+		<title>Ran into nowhere...</title>
+		<link rel="icon" type="image/x-icon" href="https://therefraction.github.io/img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<style>
+		body {
+			overflow-x: hidden; 
+			overflow-y: hidden; 
+		}
+		img{
+			-webkit-animation: rotation 4s linear infinite;
+			-moz-animation: rotation 4s linear infinite;
+			-ms-animation: rotation 4s linear infinite;
+			user-drag: none;
+			-webkit-user-drag: none;
+			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		@-webkit-keyframes rotation {
+			0%   { -webkit-transform: rotate(0deg); }
+			0% { -webkit-transform: rotate(360deg); }
+		}
+		@-moz-keyframes rotation {
+			0%   { -moz-transform: rotate(0deg); }
+			0% { -moz-transform: rotate(360deg); }
+		}
+		@-ms-keyframes rotation {
+			0%   { -ms-transform: rotate(0deg); }
+			0% { -ms-transform: rotate(360deg); }
+		}
+	</style>
+	
+	<body style="background-color:black;">
+		<header>
+			<h1 style="font-size:96px;text-align:center">~ 404 ~</h1>
+			<h2 style="font-size:48px;text-align:center" id="randomText">The pain itself is the reason why</h2>
+		</header>
+		<div class="w3-padding-64" style="text-align:center;height:640px;">
+			<img id="poppy" src="https://therefraction.github.io/img/poppy.gif" height="256" width="256" style="image-rendering:pixelated"/>
+		</div>
+	</body>
+	
+	<script>
+		var texts = ["Did you get lost?", "Hee hee! You found me!", "01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101", "But there was nothing there...", "Congrats! You found nothing...", "You came to see me? Awww! So sweet!"];
+		document.getElementById('randomText').innerHTML = texts[Math.floor(Math.random()*texts.length)];
+	</script>
+</html>
